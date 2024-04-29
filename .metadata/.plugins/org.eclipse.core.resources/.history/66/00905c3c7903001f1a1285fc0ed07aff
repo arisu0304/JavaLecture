@@ -1,0 +1,14 @@
+package chap02_variable;
+
+public class _09_Constant {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 상수 선언 및 초기화
+		// 상수 선언할 때 final 키워드 사용
+		final int MAX_STUDENT_COUNT = 30;
+		
+
+	}
+
+}
