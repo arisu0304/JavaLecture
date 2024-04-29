@@ -31,7 +31,7 @@ public class middle {
 				sum += n;
 			}
 		}
-		System.out.println(sum);
+		System.out.println("총합 : " + sum);
 	
 		System.out.println("------------------");
 		
@@ -39,12 +39,11 @@ public class middle {
 		for(n = 0 ; n < intArr.length ; n++) {
 			intArr[n] = (int)(Math.random()*101);
 		}
-		for(n = 0 ; n < intArr.length ; n++) {
-			if(n % 2 != 0) {
-				System.out.println(intArr[n]);
-			} else {
-				System.out.println(intArr[18-n]);
-			}
+		for(n = 0 ; 2*n+1 < intArr.length ; n++) {
+			System.out.println("intArr[" + (2*n+1) + "] = " + intArr[(2*n+1)]);
+		}
+		for(n = 0 ; 2*n < intArr.length ; n++) {
+			System.out.println("intArr[" + (2*n) + "] = " + intArr[(2*n)]);
 		}
 		
 		System.out.println("------------------");
