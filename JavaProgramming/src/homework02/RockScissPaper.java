@@ -17,27 +17,21 @@ public class RockScissPaper {
 
 	//게임을 시작하는 메소드
 	public void start() {
-		if(isExit == true)
-			return;
-		else
-			isExit =true;
-		while(true) {
+		
+		while(!isExit) {
 			System.out.println("가위(0), 바위(1), 보(2) 를 내주세요. 3을 내면 종료합니다.");
 			int user = sc.nextInt();
 			int com = rd.nextInt(3);
-			if(user == 3) {
+			isExit = (user == 3);
+			if(isExit) {
 				System.out.println("게임을 종료합니다.");
 				System.out.println(gameCnt + "전" + winCnt + "승" + drawCnt + "무" + loseCnt + "패");
-				sc.close();
-				break;
-			}else if(user > 4 || user < 0) {
-				System.out.println("제대로 입력해 주세요.");
+			}else {
+				printUser(user);
+				printCom(com);
+				judgeWDL(user, com);
 			}
-			printUser(user);
-			printCom(com);
-			judgeWDL(user, com);
 		}
-		isExit =false;
 	}
 	//승무패 판단해주는 메소드
 	public void judgeWDL(int user, int com) {
@@ -75,5 +69,4 @@ public class RockScissPaper {
 					System.out.println("당신은 보");
 				}
 		}
-	
 }
