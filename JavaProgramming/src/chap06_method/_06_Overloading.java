@@ -1,6 +1,6 @@
 package chap06_method;
 
-import chap06_method_calc.OverloadingCalculator;
+import chap06_method.calc.OverloadingCalculator;
 
 public class _06_Overloading {
 

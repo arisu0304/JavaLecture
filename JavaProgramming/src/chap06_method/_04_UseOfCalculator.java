@@ -2,7 +2,7 @@ package chap06_method;
 
 import java.util.Scanner;
 
-import chap06_method_calc.CompleteCalculator;
+import chap06_method.calc.CompleteCalculator;
 
 public class _04_UseOfCalculator {
 

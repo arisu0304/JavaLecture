@@ -1,6 +1,6 @@
 package chap06_method;
 
-import chap06_method_calc.ParameterCalculator;
+import chap06_method.calc.ParameterCalculator;
 
 public class _03_Parameter {
 

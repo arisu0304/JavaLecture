@@ -1,7 +1,7 @@
 package chap06_method;
 
-import chap06_method_calc.AccessModifierCalculator;
-import chap06_method_calc.ReturnCalculator;
+import chap06_method.calc.AccessModifierCalculator;
+import chap06_method.calc.ReturnCalculator;
 
 public class _02_ReturnType {
 

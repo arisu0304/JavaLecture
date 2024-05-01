@@ -1,6 +1,6 @@
 package chap06_method;
 
-import chap06_method_calc.AccessModifierCalculator;
+import chap06_method.calc.AccessModifierCalculator;
 
 public class _01_Accessmodifier {
 
