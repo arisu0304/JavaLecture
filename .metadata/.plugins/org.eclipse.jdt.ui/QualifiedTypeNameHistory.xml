@@ -3,4 +3,9 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="chap06_method_calc.ReturnCalculator"/>
     <fullyQualifiedTypeName name="chap06_method.AccessModifierCalculatorChild"/>
+    <fullyQualifiedTypeName name="java.sql.SQLTransactionRollbackException"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.Tv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.LgTv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.SamsungTv"/>
+    <fullyQualifiedTypeName name="chap12_interface.device.ElectronicDevice"/>
 </qualifiedTypeNameHistroy>

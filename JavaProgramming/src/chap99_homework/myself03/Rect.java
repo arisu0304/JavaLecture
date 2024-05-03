@@ -1,20 +1,28 @@
-package chap99_homework.myself03;
+package chap99_homework.homework03;
 
 public class Rect {
-	int width;
-	int height;
+	public int width;
+	public int height;
 	
-	public void Rect() {
+	public Rect() {
 		
 	}
 	
-	public void Rect(int width, int height) {
+	public Rect(int width) {
+		
+	}
+	
+//	public Rect(int height) {
+//		
+//	}
+	
+	public Rect(int width, int height) {
 		this.width = width;
 		this.height = height;
 	}
 	
 	public int round() {
-		return width + height + width + height;
+		return 2 * (width + height);
 	}
 	
 	public int area() {
