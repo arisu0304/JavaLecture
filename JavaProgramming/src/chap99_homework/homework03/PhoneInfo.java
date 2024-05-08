@@ -24,8 +24,8 @@ public class PhoneInfo {
 	
 	public void printPhoneInfo(int index) {
 		//매개변수로 전달된 인덱스에 해당하는 이름과 번호 출력하는 기능 구현
-		if(names[index - 1] != null) {
-			System.out.print("이름 : " + names[index - 1] + ", 번호 : " + phoneNums[index - 1] + "\n");
+		if(names[index] != null) {
+			System.out.print("이름 : " + names[index] + ", 번호 : " + phoneNums[index] + "\n");
 		} else {
 			System.out.println("해당 번호로 저장된 정보가 없습니다.");
 		}

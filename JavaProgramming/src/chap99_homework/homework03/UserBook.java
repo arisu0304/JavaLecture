@@ -17,14 +17,21 @@ public class UserBook {
 	
 	public void printUserInfo(int index) {
 		if(users[index] != null) {
-			System.out.println("id : " + users[index].getId()
-					+ ", username : " + users[index].getUsername()
-					+ ", password : " + users[index].getPassword());
-		}else {
+			System.out.println("id: " + users[index].getId() 
+					+ ", username: " + users[index].getUsername()
+					+ ", password: " + users[index].getPassword());
+		} else {
 			System.out.println("해당 인덱스에 저장된 데이터가 없습니다.");
 		}
-		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }

@@ -8,4 +8,10 @@
     <fullyQualifiedTypeName name="chap12_interface.device.LgTv"/>
     <fullyQualifiedTypeName name="chap12_interface.device.SamsungTv"/>
     <fullyQualifiedTypeName name="chap12_interface.device.ElectronicDevice"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass.Mul"/>
+    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass.Div"/>
+    <fullyQualifiedTypeName name="chap14_objectarray.car.Car"/>
+    <fullyQualifiedTypeName name="chap14_objectarray.car.HyundaiCar"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
 </qualifiedTypeNameHistroy>

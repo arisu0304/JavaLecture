@@ -8,6 +8,14 @@ public class Rect {
 		
 	}
 	
+	public Rect(int width) {
+		
+	}
+	
+//	public Rect(int height) {
+//		
+//	}
+	
 	public Rect(int width, int height) {
 		this.width = width;
 		this.height = height;

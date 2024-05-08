@@ -13,4 +13,16 @@ public class PublicOfficial extends Worker  {
 	public void working() {
 		System.out.println("공무원은 일한다.");
 	}
+
+	@Override
+	public void goBackHome() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void work() {
+		// TODO Auto-generated method stub
+		
+	}
 }

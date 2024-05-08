@@ -7,7 +7,6 @@ public class UseOfMethod {
 		String str  = "Hello World!";
 		System.out.println(Reverse.reverseString(str));
 		System.out.println(Remove.remove(str));
-		System.out.println(Remove.remove2(str));
 		System.out.println(ConvertToNum.convertToNum(str));
 	}
 

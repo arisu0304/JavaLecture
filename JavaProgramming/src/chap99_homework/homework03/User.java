@@ -1,7 +1,6 @@
 package chap99_homework.homework03;
 
-
-//DTO : Data Transfer Object, VO : Value Object, Entity 
+// DTO: Data Transfer Object, VO: Value Object, Entity
 public class User {
 	private long id;
 	private String username;

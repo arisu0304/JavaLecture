@@ -10,8 +10,11 @@ public class Basic {
 //		    11
 //		    12
 //		    12
+		
 //		    10
+		
 //		    10
+		
 //		     8
 //		
 		int num = 10;
@@ -119,15 +122,18 @@ public class Basic {
 			nums[i] = sc.nextInt();
 		}
 		
-		for(int i : nums) {
-			sum += i;
-			System.out.println(i);
+		for(int i = 0; i < nums.length; i++) {
+			sum += nums[i];
+			System.out.println(nums[i]);
 		}
+		
+//		for(int i : nums) {
+//			sum += i;
+//			System.out.println(i);
+//		}
 		
 		System.out.println("배열의 총합 : " + sum);
 		
-		sc.close();
-//		 
 //		11.int 배열로 10개의 공간을 생성하세요.
 //		  1 ~ 10까지의 임의의 수를 저장하고
 //		  홀수만 골라서 출력하세요.
@@ -137,11 +143,17 @@ public class Basic {
 			nums[i] = (int)(Math.random() * 10) + 1;
 		}
 		
-		for(int i : nums) {
-			if(i % 2 != 0) {
-				System.out.println(i);
+		for(int i = 0; i < nums.length; i++) {
+			if(nums[i] % 2 != 0) {
+				System.out.println(nums[i]);
 			}
 		}
+		
+//		for(int i : nums) {
+//			if(i % 2 != 0) {
+//				System.out.println(i);
+//			}
+//		}
 //		  
 //		12. 정수 10개를 입력받아 배열에 저장하고, 
 //		    이 정수중에서 2의 배수와 3의 배수를 출력하세요.
@@ -152,11 +164,20 @@ public class Basic {
 			nums[i] = sc.nextInt();
 		}
 		
-		for(int i : nums) {
-			if(i % 2 == 0 || i % 3 == 0) {
-				System.out.println(i);
+		for(int i = 0; i < nums.length; i++) {
+			if(nums[i] % 2 == 0 || nums[i] % 3 == 0) {
+				System.out.println(nums[i]);
 			}
 		}
+		
+//		for(int i : nums) {
+//			if(i % 2 == 0 || i % 3 == 0) {
+//				System.out.println(i);
+//			}
+//		}
+		
+
+		sc.close();
 	}
 
 }

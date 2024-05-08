@@ -3,10 +3,10 @@ package chap99_homework.myself05.advance;
 public class CommonStat {
 	
 	//학번
-	private int sno;
-	private String name;
-	private String[] subject;
-	private int[] finalExamScore;
+	protected int sno;
+	protected String name;
+	protected String[] subject;
+	protected int[] finalExamScore;
 	
 	public int getSno() {
 		return sno;
