@@ -17,9 +17,35 @@ public class middle {
 		for(int i = 0 ; i < (spaceNum/3)+1 ; i++) {
 			sb.append("bit"); // 공백에 bit 문자열 반복해서 추가
 		}
-		
 		sb.setLength(30); // 문자열 길이가 30을 초과하므로 30만큼 자름
+		
 		System.out.println(sb);
+		
+		System.out.println("----------------------");
+		
+		// 이 방식은 한번 문자열아 크기 30을 한번 초과하므로 버퍼가 자동으로 크기가 늘어나있음
+		// 여기선 62로 증가
+		// setLength는 길이만 줄이고 크기는 고정
+		// 크기도 30으로 맞추고 싶으면 bit를 mod3으로 분기시켜서 하나씩 넣어서 버퍼 30이 
+		// 넘어가는 순간 for문 종료시키면 됨
+		
+		StringBuffer sb3 = new StringBuffer(30);
+		sb3.append("hello");
+		
+		int spaceNum2 = sb3.capacity() - sb3.length();
+		
+		for(int i = 0 ; i < spaceNum2 ; i++) {
+			if( i % 3 == 0) {
+				sb3.append('b');
+			}else if( i % 3 == 1) {
+				sb3.append('i');
+			}else if(i % 3 == 2) {
+				sb3.append('t');
+			}
+		}
+		
+		System.out.println(sb3.capacity());
+		System.out.println(sb3.toString());
 		
 		System.out.println("----------------------");
 		
