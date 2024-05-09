@@ -16,13 +16,13 @@ public class _05_GenerateException {
 		try {
 			checkUserIdAndUserPw(userId, userPw);
 		} catch(Exception e) {
-			if(e.getMessage().equalsIgnoreCase("id  not exist")){
-				System.out.println("에러코드 : 201");
-				System.out.println("존재하지 않는 아이디 입니다.");
-			}else if(e.getMessage().equalsIgnoreCase("password not correct")) {
-				System.out.println("에러코드 : 202");
-				System.out.println("잘못된 비밀번호 입니다.");
-			}else {
+			if(e.getMessage().equalsIgnoreCase("id not exist")) {
+				System.out.println("에러코드: 201");
+				System.out.println("존재하지 않는 아이디입니다.");
+			} else if(e.getMessage().equalsIgnoreCase("pw not correct")) {
+				System.out.println("에러코드: 202");
+				System.out.println("잘못된 비밀번호입니다.");
+			} else {
 				System.out.println(e.getMessage());
 				System.out.println("알 수 없는 에러 발생");
 			}
@@ -35,17 +35,15 @@ public class _05_GenerateException {
 		
 		if(!userId.equals(dbUserId)) {
 			// 예외 발생시키기
-			// throw new 예외클래스 (getMessage메소드에서 표출할 메시지)
+			// throw new 예외클래스(getMessage메소드에서 표출할 메시지)
 			throw new RuntimeException("id not exist");
 		}
 		
 		if(!userPw.equals(dbUserPw)) {
-			throw new RuntimeException("password not correct");
+			throw new RuntimeException("pw not correct");
 		}
 		
 		System.out.println(userId + "님 환영합니다.");
-		
 	}
-	
 
 }

@@ -18,9 +18,8 @@ public class Board {
 		this.writer = writer;
 		this.creDate = creDate;
 	}
-
+	
 	public void post() {
 		System.out.println("게시글을 저장한다.");
 	}
-	
 }

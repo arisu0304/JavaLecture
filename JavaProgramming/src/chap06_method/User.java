@@ -10,25 +10,20 @@ public class User {
 	public void login() {
 		
 	}
-	
 	// 회원가입
 	public void join() {
 		
 	}
-	
 	// 회원정보 수정
-	public void modifyInfo() {
+	public void moidfiyInfo() {
 		
 	}
-	
 	// 로그아웃
 	public void logout() {
 		
 	}
-	
 	// 회원탈퇴
 	public void deleteUser() {
 		
 	}
-		
 }

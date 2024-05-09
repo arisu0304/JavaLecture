@@ -1,11 +1,8 @@
 package chap07_class.student;
 
 public class Student {
-	
 	public String name;
-	
 	public int age;
-	
 	public String major;
 	
 	public Student() {
@@ -26,11 +23,18 @@ public class Student {
 		this.age = age;
 		this.major = major;
 	}
-		
+	
 	public void printStudentInfo() {
-		System.out.println("이름 : " + this.name);
-		System.out.println("나이 : " + this.age);
-		System.out.println("전공 : " + this.major);
+		// 생성자에서 this 객체가 생성된 객체를 의미한다면
+		// 인스턴스 메소드에서 this 객체는 해당 메소드를 소유하고 있는 객체를 의미한다.
+		System.out.println("이름: " + this.name);
+		System.out.println("나이: " + this.age);
+		System.out.println("학과: " + this.major);
 	}
+	
+	
+	
+	
+	
 	
 }

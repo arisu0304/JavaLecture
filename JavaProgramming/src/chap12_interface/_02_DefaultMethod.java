@@ -13,18 +13,35 @@ public class _02_DefaultMethod {
 		
 		tv.powerOn();
 		tv.changeChannel(11);
-		//오바라이드된 default 메소드 사용
+		//오버라이드된 default 메소드 사용
 		tv.reset();
 		
 		tv = new LgTv();
-		// Lgtv는 reset을 오버라이드 하지 않았기 때문에
+		// LgTv는 reset을 오버라이드하지 않았기 때문에
 		// ElectronicDevice의 기능이 그대로 실행된다.
 		tv.reset();
 		
 		ElectronicDevice.warn();
 		
 		// static 메소드는 상속받은 자식클래스에서는 사용이 불가능하다.
-		// Tv.warn();
+//		Tv.warn();
+
+		String str = "abcdefg";
+		
+		System.out.println(str.charAt(2));
+		
+		
+		String str2 = "";
+		str2 += str.charAt(1);
+		str2 += str.charAt(4);
+		str2 += str.charAt(3);
+		
+		System.out.println(str2);
+		
+		
+		
+		
+		
 		
 	}
 

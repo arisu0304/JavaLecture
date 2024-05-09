@@ -5,7 +5,7 @@ public class ChildInterface implements FatherInterface, MotherInterface {
 	@Override
 	public void calm() {
 		// TODO Auto-generated method stub
-		System.out.println("침착하다");
+		System.out.println("침착하다.");
 	}
 
 	@Override

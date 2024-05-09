@@ -14,37 +14,33 @@ public class _04_Throws {
 			String[] strArr = new String[4];
 			
 			printStringArray(strArr);
-		}catch(NumberFormatException nfe) {
+		} catch(NumberFormatException nfe) {
 			System.out.println(nfe.getMessage());
-		}catch(IOException ie) {
+		} catch(IOException ie) {
 			System.out.println(ie.getMessage());
-		}catch(NullPointerException ne) {
+		} catch(NullPointerException ne) {
 			System.out.println(ne.getMessage());
-		}catch(Exception e) {
+		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
 	}
 	
 	
 	// throws는 해당 메소드가 호출되는 곳에 예외처리를 위임하는 것이다.
-	// 메소드를 호출하는 곳에서 try ~ catch 구문으로 예외처리를 하던가 아니면
-	// 다시 한 번 throws로 예외처리를 위임할 수 있다.
-	// throws의 위치는 매개변수의 소괄호 뒤, {앞에 작성한다.
-	
-	public static void test() throws NumberFormatException, IOException{
-		BufferedReader in = new BufferedReader(new InputStreamReader(System.in)) ;
+	// 메소드를 호출하는 곳에서 try ~ catch 구문으로 예외처리를 하던가 아니면 다시 한 번 throws로 
+	// 예외처리를 위임할 수 있다.
+	// throws의 위치는 매개변수의 소괄호 뒤, { 앞에 작성한다.
+	public static void test() throws NumberFormatException, IOException {
+		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		
 		int age = 0;
 		
 		age = Integer.parseInt(in.readLine());
-		
 	}
 	
-	public static void printStringArray(String[] strArr) throws NullPointerException{
-		for(int i = 0 ; i < strArr.length; i++) {
+	public static void printStringArray(String[] strArr) throws NullPointerException {
+		for(int i = 0; i < strArr.length; i++) {
 			System.out.println(strArr[i].length());
 		}
 	}
-	
-	
 }

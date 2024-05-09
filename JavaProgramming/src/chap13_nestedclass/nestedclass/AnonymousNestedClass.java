@@ -6,8 +6,4 @@ public interface AnonymousNestedClass {
 	int mul(int a, int b);
 	double div(int a, int b);
 	int mod(int a, int b);
-	
-	
-	
-	
 }

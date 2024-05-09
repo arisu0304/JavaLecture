@@ -11,9 +11,6 @@ public class _01_Exception {
 		while(true) {
 			System.out.println(intArr[idx++]);
 		}
-		
-		
-		
 	}
 
 }

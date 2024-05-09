@@ -1,14 +1,13 @@
 package chap10_polymorphism.member;
 
-
-// 명시되진 않았지만 모든 클래스는 Object 클래스를 상속받아 만들어진다.
+// 명시되어 있진 않지만 모든 클래스는 Object 클래스를 상속받아 만들어진다.
 public class Member {
 	private long id;
 	private String userId;
 	private String password;
 	private String userEmail;
 	private String userNickname;
-
+	
 	public Member(long id, String userId, String password, String userEmail, String userNickname) {
 		super();
 		this.id = id;
@@ -48,7 +47,6 @@ public class Member {
 	public void setUserNickname(String userNickname) {
 		this.userNickname = userNickname;
 	}
-
 	
 	// Object 클래스의 toString 메소드를 오버라이드한 메소드
 	@Override
@@ -56,4 +54,5 @@ public class Member {
 		return "Member [id=" + id + ", userId=" + userId + ", password=" + password + ", userEmail=" + userEmail
 				+ ", userNickname=" + userNickname + "]";
 	}
+	
 }

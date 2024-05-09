@@ -13,12 +13,13 @@ public class _04_UseOfCalculator {
 		int result;
 		double dResult;
 		int num1, num2;
+		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("숫자를 입력하세요.");
+		System.out.print("숫자를 입력하세요.");
 		num1 = sc.nextInt();
 		
-		System.out.println("숫자를 입력하세요.");
+		System.out.print("숫자를 입력하세요.");
 		num2 = sc.nextInt();
 		
 		result = cCalc.add(num1, num2);
@@ -35,6 +36,9 @@ public class _04_UseOfCalculator {
 		
 		result = cCalc.mod(num1, num2);
 		System.out.println(num1 + " % " + num2 + " = " + result);
+		
+		
+		
 		
 	}
 

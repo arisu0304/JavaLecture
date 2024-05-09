@@ -15,25 +15,28 @@ public class AppleTv extends Tv {
 		super.powerOff();
 	}
 	
-	// 부모 메소드가 default이므로 접근 불가 -> 에러
-	// Tv와 AppleTv가 다른 패키지에 속해있기 때문에 
-	// default 접근제어자로 선언된 operate메소드는 오버라이드 할 수 없다.
-	/*
-	 * @Override public void operate(int channel) {
-	 * 
-	 * }
-	 */
+	// Tv와 AppleTv가 다른 패키지에 속해있기 때문에
+	// default 접근제어자로 선언된 operate메소드는 
+	// 오버라이드할 수 없다.
+//	@Override
+//	public void operate(int channel) {
+//		
+//	}
 	
 	public void testTv() {
 		super.powerOn();
+		
 		super.powerOff();
 		
-		// 접근제어자 문제로 에러
-		/*
-		 * super.operate(11); 
-		 * super.channelUp();
-		 */
+//		super.operate(11);
+//		
+//		super.channelUp();
 	}
+	
+	
+	
+	
+	
 	
 	
 }

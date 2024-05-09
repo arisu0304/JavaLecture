@@ -9,24 +9,15 @@ public class Tiger extends Animal{
 	
 	public Tiger(int age, String size, boolean hasWing, String skin) {
 		// 자식클래스에서 부모클래스를 호출할 수 있는 super 키워드
-		// super(age, size, hasWing) == Animal(age, size, hasWing);
-		// 부모 생성자가 먼저 와야함
-		// 에러
-		//this.skin = skin;
-		
-		
+		// super(age, size, hasWing) == Animal(age, size, hasWing)
 		super(age, size, hasWing);
-//		this.age = age;
-//		this.size = size;
-//		this.hasWing = hasWing;
-		
+		this.skin = skin;
 	}
 	
-	// @Override : 원래 컴파일러가 자식 클래스와 부모 클래스를 비교하면서
-	// 해당 메소드가 오버라이딩 됐는지를 비교한다.
-	// @Override 사용하면 컴파일러에게 미리 이 메소드가 오버라이드 된 메소드라는
-	// 것을 알린다.
 	
+	// @Override: 원래 컴파일러가 자식클래스와 부모클래스를 비교하면서 
+	// 해당메소드가 오버라이드 됐는지를 비교한다. @Override 사용하면 
+	// 컴파일러에게 미리 이 메소드가 오버라이드된 메소드라는 것을 알린다.
 	@Override
 	public void eat() {
 		// 인스턴스 메소드에서도 super 키워드를 사용할 수 있다.
@@ -40,6 +31,4 @@ public class Tiger extends Animal{
 		super.sleep();
 		System.out.println("누워서 잔다.");
 	}
-	
-	
 }

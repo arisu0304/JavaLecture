@@ -1,6 +1,6 @@
 package chap12_interface.device;
 
-public class SamsungTv implements Tv {
+public class SamsungTv implements Tv{
 
 	@Override
 	public void showDisplay() {
@@ -29,20 +29,25 @@ public class SamsungTv implements Tv {
 	@Override
 	public void changeChannel(int channel) {
 		// TODO Auto-generated method stub
-		System.out.println("삼성티비" + channel + "로 이동합니다.");
+		System.out.println("삼성티비 " + channel + "로 이동합니다.");
 	}
 	
-	//default 메소드도 오버라이드 할 수 있다.
+	// default 메소드도 오버라이드 할 수 있다.
 	@Override
 	public void reset() {
 		System.out.println("삼성티비 재부팅합니다.");
 	}
 	
-	
-	// static 메소드는 오버라이드 할 수 없다.
-	//@Override
+	// static 메소드는 오버라이드할 수 없다.
+//	@Override
 //	public void warn() {
 //		
 //	}
-
+	
+	
+	
+	
+	
+	
+	
 }

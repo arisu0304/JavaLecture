@@ -1,7 +1,5 @@
 package chap10_polymorphism.tv;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class LgTv extends Tv {
 	@Override
 	public void powerOn() {
@@ -17,25 +15,14 @@ public class LgTv extends Tv {
 		super.powerOff();
 	}
 	
-	
-	// 부모 메소드의 접근제어자 default < 자식 public이므로 ok
-	// 이는 자식 객체는 부모 객체의 모습도 가지고 있다는 걸 생각하면 당연함
-	// 만약 private라면 에러
 	@Override
 	public void operate(int channel) {
 		System.out.println("QLED");
 		super.operate(channel);
 	}
 	
-	// 부모 메소드의 접근자가 private이므로 오버라이드 불가
-	/*
-	 * @Override public void channelUp() {
-	 * 
-	 * }
-	 */
-	
 	public void testTv() {
-		// 부모클레스에 public으로 선언된 메소드
+		// 부모클래스에 public으로 선언된 메소드
 		super.powerOn();
 		
 		// 부모클래스에 protected로 선언된 메소드
@@ -44,10 +31,7 @@ public class LgTv extends Tv {
 		// 부모클래스에 default로 선언된 메소드
 		super.operate(11);
 		
-		// 부모클래스에 private로 선언된 메소드 -> 에러
-		// super.channelUp();
+		// 부모클래스에 private으로 선언된 메소드
+//		super.channelUp();
 	}
-	
-	
-	
 }

@@ -9,7 +9,7 @@ public class CarStat {
 	public CarStat() {
 		
 	}
-
+	
 	public CarStat(String company, String model, int price, String color) {
 		this.company = company;
 		this.model = model;

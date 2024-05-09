@@ -31,5 +31,4 @@ public class Tv {
 	public void channelDown() {
 		lastChannel--;
 	}
-	
 }

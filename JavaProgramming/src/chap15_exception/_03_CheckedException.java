@@ -15,8 +15,8 @@ public class _03_CheckedException {
 		// IOException은 checkedException으로 무조건 예외처리 코드를 작성해야 한다.
 		// readLine 메소드의 정의로 이동해보면 throws 구문으로 IOException을 던지고 있기 때문에
 		// readLine 메소드를 호출하는 곳에서 IOException에 대한 예외처리를 해야한다.
-		
-		//try {
+//		try {
+
 			try {
 				age = Integer.parseInt(in.readLine());
 			} catch (NumberFormatException e) {
@@ -26,12 +26,9 @@ public class _03_CheckedException {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		//}catch(IOException ie) {
-			
-		//}
-				
-				
-		
+//		} catch(IOException ie) {
+//			
+//		}
 	}
 
 }

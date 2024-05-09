@@ -18,9 +18,4 @@ public class SamsungTv extends Tv {
 		System.out.println("OLED");
 		super.operate(channel);
 	}
-	
-	
-	
-	
-	
 }

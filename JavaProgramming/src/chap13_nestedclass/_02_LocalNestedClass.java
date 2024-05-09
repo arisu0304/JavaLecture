@@ -7,14 +7,11 @@ public class _02_LocalNestedClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// 지역 중첩 클래스는 객체 생성이 불가능하다
-		
 		LocalNestedClass localNestedClass = new LocalNestedClass();
 		
 		localNestedClass.speedUp();
 		
-		// 에러
-		// LocalNestedClass.Engine engine = LocalNestedClass.new engine();
-		
+//		LocalNestedClass.Engine engine = localNestedClass.new Engine();
 	}
 
 }

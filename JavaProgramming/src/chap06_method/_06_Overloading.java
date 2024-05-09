@@ -14,7 +14,6 @@ public class _06_Overloading {
 		
 		int result;
 		
-		
 		OverloadingCalculator oc = new OverloadingCalculator();
 		
 		result = oc.add(num1, num2, num3);
@@ -25,6 +24,8 @@ public class _06_Overloading {
 		
 		result = oc.add(num2, num3);
 		System.out.println(result);
+		
+		
 		
 		
 	}

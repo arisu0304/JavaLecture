@@ -4,7 +4,7 @@ public class _06_DoWhile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// 1. do-while : 조건식을 따지기 전에 소스코드를 무조건 1회 실행
+		// 1. do-while: 조건식을 따지기 전에 소스코드를 무조건 1회 실행
 		do {
 			System.out.println("무조건 1회 실행");
 		} while(10 < 5);
@@ -15,25 +15,21 @@ public class _06_DoWhile {
 			System.out.println("실행되지 않음");
 		}
 		
-		System.out.println("-------------");
-		
 		// 2. 1~20까지의 정수 중 3의 배수만 출력하는 do-while구문을 작성하세요.
+		int j = 1;
 		
-		
-//		int n=1;
-//		do { 
-//			System.out.println(3*n); 
-//			n++; 
-//			} while (3*n < 20);
-		 
-		
-		int j=1;
 		do {
 			if(j % 3 == 0) {
-				System.out.println(j);	
+				System.out.println(j);
 			}
 			j++;
-		} while (j <= 20);
+		} while(j <= 20);
+		
+		
+		
+		
+		
+		
 		
 	}
 

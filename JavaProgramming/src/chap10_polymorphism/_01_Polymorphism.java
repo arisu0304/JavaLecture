@@ -9,7 +9,6 @@ public class _01_Polymorphism {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// 1. 다형성을 이용하여 Tv 객체 바꾸며 사용하기
-		
 		Tv tv = new LgTv();
 		
 		tv.powerOn();
@@ -25,8 +24,6 @@ public class _01_Polymorphism {
 		tv = new SamsungTv();
 		
 		tv.channelDown();
-		
-		
 	}
 
 }

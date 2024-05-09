@@ -1,7 +1,6 @@
 package chap09_inherit.animal;
 
 public class Animal {
-
 	int age;
 	String size;
 	boolean hasWing;
@@ -23,7 +22,4 @@ public class Animal {
 	public void sleep() {
 		System.out.println("잠을 잔다.");
 	}
-	
-	
-	
 }
