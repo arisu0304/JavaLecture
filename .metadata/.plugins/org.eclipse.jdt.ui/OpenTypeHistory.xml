@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=JavaProgramming/src&lt;chap99_homework.myself04.advance{Worker.java[Worker" modifiers="1025" timestamp="1714650550591"/>
-    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.multiinherit{FatherInterface.java[FatherInterface" modifiers="513" timestamp="1714714012955"/>
-    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.multiinherit{MotherInterface.java[MotherInterface" modifiers="513" timestamp="1714714030029"/>
-    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.board{Board.java[Board" modifiers="513" timestamp="1714708373911"/>
-    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.multiflex{MultiFlexStadium.java[MultiFlexStadium" modifiers="513" timestamp="1714714706968"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.multiinherit{FatherInterface.java[FatherInterface" modifiers="513" timestamp="1715237213716"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.multiinherit{MotherInterface.java[MotherInterface" modifiers="513" timestamp="1715237213703"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.board{Board.java[Board" modifiers="513" timestamp="1715237213611"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.multiflex{MultiFlexStadium.java[MultiFlexStadium" modifiers="513" timestamp="1715237213688"/>
     <typeInfo handle="=JavaProgramming/C:\/devTools\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\/jre\/lib\/jrt-fs.jar`java.desktop=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;javax.print(MultiDocPrintJob.class[MultiDocPrintJob" modifiers="1537" timestamp="1705719010000"/>
-    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.device{ElectronicDevice.java[ElectronicDevice" modifiers="513" timestamp="1714720624297"/>
-    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.device{Display.java[Display" modifiers="513" timestamp="1714718797350"/>
-    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.device{Speaker.java[Speaker" modifiers="513" timestamp="1714718829726"/>
-    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.device{Tv.java[Tv" modifiers="513" timestamp="1714718922925"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.device{ElectronicDevice.java[ElectronicDevice" modifiers="513" timestamp="1715237213656"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.device{Display.java[Display" modifiers="513" timestamp="1715237213661"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.device{Speaker.java[Speaker" modifiers="513" timestamp="1715237213624"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_interface.device{Tv.java[Tv" modifiers="513" timestamp="1715237213624"/>
     <typeInfo handle="=JavaProgramming/src&lt;chap99_homework.myself05.basic{Car.java[Car" modifiers="513" timestamp="1714721974370"/>
     <typeInfo handle="=JavaProgramming/src&lt;chap99_homework.myself05.basic{ElectronicCar.java[ElectronicCar" modifiers="513" timestamp="1714722030619"/>
     <typeInfo handle="=JavaProgramming/src&lt;chap99_homework.myself05.basic{FuelCar.java[FuelCar" modifiers="513" timestamp="1714722040329"/>
