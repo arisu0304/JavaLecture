@@ -23,4 +23,9 @@ public class Car {
 		System.out.println("가격: " + this.price);
 		System.out.println("색상: " + this.color);
 	}
+
+	@Override
+	public String toString() {
+		return "[company=" + company + ", model=" + model + ", price=" + price + ", color=" + color + "]";
+	}
 }

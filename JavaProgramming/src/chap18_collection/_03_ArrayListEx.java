@@ -8,46 +8,73 @@ public class _03_ArrayListEx {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// 2. 사용자가 입력한 문자열을 StringBulider 객체에 저장하고
+		// 1. 
+//		List<String> list = new ArrayList<>();
+//		
+//		list = createStrList();
+//		
+//		System.out.println(list);
+		// 2. 사용자가 입력한 문자열을 StringBuilder 객체에 저장하고 
 		// 길이를 10씩 잘라서 List<StringBuilder>에 저장하고 출력하세요.
-		
 		Scanner sc = new Scanner(System.in);
 		
-		StringBuilder sb = new StringBuilder();
+		System.out.println("문자열을 입력하세요.");
 		
-		for(String str : stringSave(sc)) {
-			sb.append(str);
-		}
+		StringBuilder sb = new StringBuilder(sc.nextLine());
 		
 		List<StringBuilder> sbList = new ArrayList<>();
 		
-		while(sb.length() >= 10) {
-			StringBuilder subStr = new StringBuilder(sb.substring(0, 10));
-			sbList.add(subStr);
-			sb.delete(0, 10);
+		for(int i = 0; i < sb.length(); i += 10) {
+			if(i + 10 < sb.length()) {
+				sbList.add(
+					new StringBuilder(
+						sb.substring(i, i + 10)
+					)	
+				);
+			} else {
+				sbList.add(
+					new StringBuilder(
+						sb.substring(i, sb.length())
+					)
+				);
+			}
 		}
 		
-		sbList.add(sb);
-		
-		for(StringBuilder stringBuilder : sbList) {
-			System.out.println(stringBuilder);
+		for(StringBuilder sb2 : sbList) {
+			System.out.println(sb2);
 		}
-
+		
 		sc.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 	
 	// 1. 사용자가 입력한 5개의 문자열을 List<String>에 저장해서 리턴하는 메소드를 구현하세요.
-	
-	public static List<String> stringSave(Scanner sc){
+	public static List<String> createStrList() {
+		Scanner sc = new Scanner(System.in);
 		
-		List<String> stringList = new ArrayList<>();
+		List<String> strList = new ArrayList<>();
 		
-		for(int i = 0 ; i < 5 ; i++) {
+		for(int i = 0; i < 5; i++) {
 			System.out.println("문자열을 입력하세요.");
-			stringList.add(sc.nextLine());
+			strList.add(sc.nextLine());
 		}
 		
-		return stringList;
+		sc.close();
+		
+		return strList;
 	}
-	
 }

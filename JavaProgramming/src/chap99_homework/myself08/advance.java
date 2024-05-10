@@ -36,19 +36,19 @@ public class advance {
 		
 		System.out.println("----------------------");
 
-//	2. 사용자가 두 개의 날짜(yyyy-MM-dd 형식)를 입력하고 입력받은
-//	    두 날짜 사이의 날짜를 모두 출력하세요. (Calendar 클래스를 사용하세요).		
-//	    ex) 2023-01-29 2023-02-05 입력
-//		출력       2023-01-29
-//	             2023-01-30
-//	             2023-01-31
-//	             2023-02-01
-//	             2023-02-02
-//	             2023-02-03
-//	             2023-02-04
-//	             2023-02-05
-
-		
+////	2. 사용자가 두 개의 날짜(yyyy-MM-dd 형식)를 입력하고 입력받은
+////	    두 날짜 사이의 날짜를 모두 출력하세요. (Calendar 클래스를 사용하세요).		
+////	    ex) 2023-01-29 2023-02-05 입력
+////		출력       2023-01-29
+////	             2023-01-30
+////	             2023-01-31
+////	             2023-02-01
+////	             2023-02-02
+////	             2023-02-03
+////	             2023-02-04
+////	             2023-02-05
+//
+//		
 		Scanner sc = new Scanner(System.in);
 		
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -78,12 +78,14 @@ public class advance {
 		Date date = new Date(calendar2.getTimeInMillis());
 		System.out.println(simpleDateFormat.format(date));
 		
-		System.out.println("----------------------");
+		// 별해 : 두 차이를 계산 후 일수로 변환, 이후 for문에 돌림
 		
-//	3. 사용자가 입력한 5개의 정수를 저장하는 List<Integer>를 생성하고
-//	    연속된 두 수의 합이 가장 커지는 구간의 두 수를 출력하세요.
-//	    ex) [1, 2, 3, 4, 5] => 4, 5 출력
-
+		System.out.println("----------------------");
+//		
+////	3. 사용자가 입력한 5개의 정수를 저장하는 List<Integer>를 생성하고
+////	    연속된 두 수의 합이 가장 커지는 구간의 두 수를 출력하세요.
+////	    ex) [1, 2, 3, 4, 5] => 4, 5 출력
+//
 		System.out.println("숫자를 입력하세요.");
 		
 		List<Integer> intList = new ArrayList<>();
@@ -141,7 +143,7 @@ public class advance {
 		// intList4는 중복아닌 값들을 저장해 놓을 새로운 리스트
 		List<Integer> intList4 = new ArrayList<>();
 		
-		for(int i = 0; i < intList3.size() ; i++) {
+		for(int i = 0; i < intList3.size()-1 ; i++) {
 			// 오름차순으로 정렬되었기 때문에 특정 값이 나오는 첫 인덱스 == 마지막 인덱스 는
 			// 중복이 아니라는 것과 동치
 			// 중복이 아니면 intList4에 해당 값을 넣고 cnt++
@@ -155,12 +157,21 @@ public class advance {
 			}
 		}
 		
+		System.out.println(intList3);
+
 		System.out.println("총 " + cnt + " 개 ");
 		
 		for(Integer i : intList4) {
 			System.out.println(i);
 		}
-
+		
+		// 별해 : List<Integer> dupElementList = new ArrayList<>();
+		// 라는 중복 값 저장하는 새로운 배열 생성해서 removeAll
+		// removeAll은 collection이 매개변수
+		// subList로 하려고 해도 리턴값이 정확히는 배열의 "뷰" 이기 때문에 이상한 오류가 생김
+		
+		// 별해 2 : if문에서 하나만 비교하는게 아니라 앞과도 다르고 뒤와도 다르면 중복되지 않음
+		
 	}
 
 }
