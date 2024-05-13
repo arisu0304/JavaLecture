@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="java.text.DateFormat"/>
+		<item key="selection" value="map"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="map"/>
+			<item value="Integer"/>
+			<item value="string"/>
 			<item value="computeTime()"/>
 			<item value="java.text.DateFormat"/>
 			<item value="computetime"/>
@@ -20,17 +23,14 @@
 			<item value="ROUND_HALF_UP"/>
 			<item value="half"/>
 			<item value="clone"/>
-			<item value="삼성"/>
-			<item value="index"/>
-			<item value="indexOf"/>
 		</list>
 		<list key="replacehistory">
 			<item value="엘지"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="565"/>
-		<item key="DIALOG_Y_ORIGIN" value="333"/>
+		<item key="DIALOG_X_ORIGIN" value="564"/>
+		<item key="DIALOG_Y_ORIGIN" value="531"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

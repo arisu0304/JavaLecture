@@ -19,7 +19,6 @@ public class _01_MultiInherit {
 		MultiFlexStadium mfs = new SeoulMultiflexStadium();
 		Theater theater = new SeoulMultiflexStadium();
 		SeoulMultiflexStadium smfs = new SeoulMultiflexStadium();
-		
 	
 		
 		
