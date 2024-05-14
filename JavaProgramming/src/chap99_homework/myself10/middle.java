@@ -52,10 +52,10 @@ public class middle {
 		totalPrice += latte.totalPrice(1,0);
 		
 		CoffeeMenu mocha = CoffeeMenu.MOCHA;
-		totalPrice += mocha.totalPrice(0,2);
+		totalPrice += mocha.totalPrice(2,0);
 		
 		CoffeeMenu coldbrew = CoffeeMenu.COLDBREW;
-		totalPrice += coldbrew.totalPrice(2,0);
+		totalPrice += coldbrew.totalPrice(0,2);
 		
 		System.out.println("총 가격은 " + totalPrice + "원 입니다.");
 		

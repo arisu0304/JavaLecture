@@ -9,14 +9,18 @@ public class TList<T> {
 	public List<T> tList;
 	
 	public List<T>[] splitList(List<T> tList) {
+		// 쪼개진 리스트 2개 저장할 2개짜리 리스트 배열 선언
 		List<T>[] splitListArr = new List[2];
 		
+		// 리스트 크기의 절반 
 		int halfSize = tList.size() / 2;
 		
+		// 쪼개진 앞 리스트, 뒷 리스트
 		List<T> firstList = new ArrayList<>();
 		List<T> secondList = new ArrayList<>();
 		
 		if(tList.size() % 2 ==0 ) {
+			// tList를 subList로 잘라서 통째로 대입 단, 홀 짝 구분
 			firstList.addAll(tList.subList(0, halfSize));
 			secondList.addAll(tList.subList(halfSize, tList.size()));
 		}else {

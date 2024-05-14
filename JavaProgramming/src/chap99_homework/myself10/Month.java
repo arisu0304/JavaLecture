@@ -27,6 +27,7 @@ public enum Month {
 	}
 	
 	public static void sumDays(int year) {
+		
 		Month[] monthArr = Month.values();
 		int sum = 0;
 		
