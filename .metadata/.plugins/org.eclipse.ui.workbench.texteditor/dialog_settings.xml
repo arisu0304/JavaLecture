@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="clone()"/>
+		<item key="selection" value="toUpperCase"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="touppercase"/>
+			<item value="uppercase"/>
+			<item value="upper"/>
+			<item value="upeer"/>
 			<item value="clone()"/>
 			<item value="clone"/>
 			<item value="lock"/>
@@ -19,17 +23,13 @@
 			<item value="java.text.DateFormat"/>
 			<item value="computetime"/>
 			<item value="compute"/>
-			<item value="toString"/>
-			<item value="sublist"/>
-			<item value="tostring"/>
-			<item value="tos"/>
 		</list>
 		<list key="replacehistory">
 			<item value="엘지"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1402"/>
+		<item key="DIALOG_X_ORIGIN" value="871"/>
 		<item key="DIALOG_Y_ORIGIN" value="378"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>

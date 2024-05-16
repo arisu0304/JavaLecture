@@ -19,6 +19,7 @@ public class _01_GenericClass {
 		strBox.add();
 		intBox.add();
 		mapBox.add();
+		
 	}
 
 }

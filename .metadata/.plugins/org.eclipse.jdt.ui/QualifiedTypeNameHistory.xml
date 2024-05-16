@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="chap06_method_calc.ReturnCalculator"/>
-    <fullyQualifiedTypeName name="chap06_method.AccessModifierCalculatorChild"/>
-    <fullyQualifiedTypeName name="java.sql.SQLTransactionRollbackException"/>
-    <fullyQualifiedTypeName name="chap12_interface.device.Tv"/>
-    <fullyQualifiedTypeName name="chap12_interface.device.LgTv"/>
-    <fullyQualifiedTypeName name="chap12_interface.device.SamsungTv"/>
-    <fullyQualifiedTypeName name="chap12_interface.device.ElectronicDevice"/>
-    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass"/>
-    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass.Mul"/>
-    <fullyQualifiedTypeName name="chap13_nestedclass.nestedclass.NestedClass.Div"/>
     <fullyQualifiedTypeName name="chap14_objectarray.car.HyundaiCar"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
@@ -38,8 +28,6 @@
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="chap14_objectarray.car.Car"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="chap19_generic.ramyun.Ramyun"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="chap20_enum.enums.DefaultMonth"/>
@@ -49,7 +37,6 @@
     <fullyQualifiedTypeName name="chap20_enum.enums.MethodMonth"/>
     <fullyQualifiedTypeName name="chap99_homework.myself10.Month"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="chap99_homework.myself10.TList"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -57,5 +44,20 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="chap21_multithread.threads.PrintNum"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="chap99_homework.myself11.PrintNumThread01"/>
+    <fullyQualifiedTypeName name="chap99_homework.myself11.PrintNumThread02"/>
+    <fullyQualifiedTypeName name="chap99_homework.myself11.NumberPrinter"/>
+    <fullyQualifiedTypeName name="chap22_lambda.basiclambda.Calculator"/>
+    <fullyQualifiedTypeName name="chap22_lambda.basiclambda.Mul"/>
+    <fullyQualifiedTypeName name="chap22_lambda.basiclambda.SingleMul"/>
+    <fullyQualifiedTypeName name="chap22_lambda.basiclambda.MulandDiv"/>
+    <fullyQualifiedTypeName name="chap22_lambda.basiclambda.ConcatString"/>
+    <fullyQualifiedTypeName name="chap22_lambda.basiclambda.BasicCalculator"/>
+    <fullyQualifiedTypeName name="chap99_homework.myself01.basic"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="chap22_lambda.reference.MoneyConvertor"/>
 </qualifiedTypeNameHistroy>

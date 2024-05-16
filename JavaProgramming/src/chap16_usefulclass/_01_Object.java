@@ -17,7 +17,7 @@ public class _01_Object {
 		// clone 메소드는 Object 클래스에 구현이 되어있지 않기때문에
 		// 상속받은 자식클래스에서 구현해야된다.
 		@Override
-		public Object clone() {
+		public Object clone(){
 			Object obj = null;
 			
 			try {

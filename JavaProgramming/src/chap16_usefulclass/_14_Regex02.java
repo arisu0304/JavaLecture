@@ -8,7 +8,7 @@ public class _14_Regex02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String pattern = "010.*-[0-9]{4}-[0-9]{4}";
-		String compare = "010-1111-111";
+		String compare = "010-1111-1111";
 		
 		Pattern pt = Pattern.compile(pattern);
 		

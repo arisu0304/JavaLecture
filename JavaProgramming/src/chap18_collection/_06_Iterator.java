@@ -1,6 +1,7 @@
 package chap18_collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -21,26 +22,26 @@ public class _06_Iterator {
 		System.out.println("carList의 데이터 개수: " + carList.size());
 		
 		// 1. Iterator 객체 얻기
-//		Iterator<Car> carIterator = carList.iterator();
-//		
-//		while(carIterator.hasNext()) {
-//			Car car = carIterator.next();
-//			
-//			car.carInfo();
-//			
-//			// iterator를 통한 데이터 삭제
-//			// iterator.next 메소드로 데이터를 하나 꺼내온 후에 사용가능하다.
-//			if(car.company.equals("현대")) {
-//				// iterator.next 메소드를 통해 꺼내온 데이터 List에서 삭제
-//				carIterator.remove();
-//			}
-//		}
+		Iterator<Car> carIterator = carList.iterator();
 		
-		for(int i = 0; i < carList.size(); i++) {
-			if(carList.get(i).company.equals("현대")) {
-				carList.remove(i--);
+		while(carIterator.hasNext()) {
+			Car car = carIterator.next();
+			
+			car.carInfo();
+			
+			// iterator를 통한 데이터 삭제
+			// iterator.next 메소드로 데이터를 하나 꺼내온 후에 사용가능하다.
+			if(car.company.equals("현대")) {
+				// iterator.next 메소드를 통해 꺼내온 데이터 List에서 삭제
+				carIterator.remove();
 			}
 		}
+		
+//		for(int i = 0; i < carList.size(); i++) {
+//			if(carList.get(i).company.equals("현대")) {
+//				carList.remove(i--);
+//			}
+//		}
 		
 //		for(Car car : carList) {
 //			if(car.company.equals("현대"))
