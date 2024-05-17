@@ -45,12 +45,13 @@ public class _03_BasicStreamEx01 {
 		// 최종처리 단계가 존재하지 않으면 중간단계들은 의미가 없어지기 때문에
 		// 항상 최종처리 단계를 추가한다.
 		int priceSum = hCarList.stream() // Stream<HyundaiCar>
-								// 모델명이 아반떼인 객체만 모여있는 Stream<HyundaiCar>
-								.filter(hCar -> hCar.getModel().equals("아반떼")) 
-								// 모델명이 아반떼인 차의 가격만 모여있는 IntStream
-								.mapToInt(avante -> avante.getPrice())
-								// IntStream에 담겨있는 값의 총합
-								.sum();
+							   // 모델명이 아반떼인 객체만 모여있는 Stream<HyundaiCar>
+							   .filter(hCar -> hCar.getModel().equals("아반떼")) 
+							   // 모델명이 아반떼인 차의 가격만 모여있는 IntStream
+							   .mapToInt(avante -> avante.getPrice())
+							   // IntStream에 담겨있는 값의 총합
+							   .sum();
+		
 		System.out.println(priceSum);
 		
 		

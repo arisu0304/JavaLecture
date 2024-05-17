@@ -24,7 +24,7 @@ public class _15_ThreadPool {
 			// 스레드 풀의 최대 스레드 개수가 5개로 지정돼 있어서
 			// 0~4번까지 처음에 스레드가 지정되고
 			// 0번 스레드의 작업이 끝나면 5번스레드의 스레드 할당이 일어난다.
-//			System.out.println(i);
+			System.out.println(i);
 			threadPool.execute(pt01);
 		}
 		

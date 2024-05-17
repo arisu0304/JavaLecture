@@ -25,7 +25,7 @@ public class _13_ThreadPool {
 		
 		// 4. shutDown() : 메인 스레드가 종료되도 대기큐에 있는 모든 스레드들의
 		// 작업을 모두 마친뒤에 스레드풀을 종료하는 메소드
-		threadPool.shutdown();
+		 threadPool.shutdown();
 		
 	}
 
