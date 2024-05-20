@@ -42,8 +42,8 @@
 		<item key="create_package_info_java" value="false"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="399"/>
-		<item key="DIALOG_Y_ORIGIN" value="314"/>
+		<item key="DIALOG_X_ORIGIN" value="355"/>
+		<item key="DIALOG_Y_ORIGIN" value="333"/>
 		<item key="DIALOG_WIDTH" value="575"/>
 		<item key="DIALOG_HEIGHT" value="659"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
@@ -106,14 +106,14 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="300"/>
-		<item key="DIALOG_Y_ORIGIN" value="27"/>
+		<item key="DIALOG_X_ORIGIN" value="405"/>
+		<item key="DIALOG_Y_ORIGIN" value="314"/>
 		<item key="DIALOG_WIDTH" value="531"/>
 		<item key="DIALOG_HEIGHT" value="678"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
-		<item key="DIALOG_X_ORIGIN" value="581"/>
+		<item key="DIALOG_X_ORIGIN" value="420"/>
 		<item key="DIALOG_Y_ORIGIN" value="64"/>
 		<item key="DIALOG_WIDTH" value="516"/>
 		<item key="DIALOG_HEIGHT" value="691"/>
