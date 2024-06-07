@@ -6,15 +6,6 @@ public class set01 {
 	public static void main (String args[]) {
 		//	--------------------변수--------------------
 
-//	6. 사용자가 입력한 정수의 구구단을 출력하세요.(출력 양식 => 2를 입력했을 때 2 * 1 = 2
-//												  2 * 2 = 4
-//												  .....
-//												  2 * 9 = 18 
-//
-//	7. 사용자가 입력한 정수로 해당 정수의 팩토리얼을 계산하여 출력하세요.(재귀메소드 없이, while이나 for 반복문을 사용)
-//
-//	8. 사용자가 입력한 10개의 정수 중 소수의 개수를 출력하세요.(소수는 1이랑 본인 말고는 나눠떨어지는 값이 없는 수입니다.)
-//	   사용자가 입력할 수 있는 값은 2 ~ 30로 제한
 		
 //		1. 사용자가 입력한 이름, 나이, 성별을 출력하세요.
 		
@@ -79,18 +70,83 @@ public class set01 {
 		System.out.println("입력하신 5개 정수의 합 : " + sum + " 평균 : " + (double) sum / 5);
 		
 //		5. 사용자가 입력한 세 정수의 최소 값, 중간 값, 최대 값을 출력하세요.
-		
-		
-		for(int i = 0 ; i < 3 ; i++) {
+
+		int[] numArr = new int[3];
+
+		for(int i = 0; i < 3 ; i++){
 			System.out.println("정수를 입력하세요.");
-			sum += sc.nextInt();
+			numArr[i] = sc.nextInt();
+			sc.nextLine();
 		}
+
+		for(int i = 0 ; i < 3 ; i++){
+			for(int j = i+1 ; j < 3 ; j++){
+				if(numArr[i] > numArr[j]){
+					int temp = numArr[i];
+					numArr[i] = numArr[j];
+					numArr[j] = temp;
+				}
+			}
+		}
+		
+		System.out.println("최소값은 " + numArr[0]);
+		System.out.println("중간값은 " + numArr[1]);
+		System.out.println("최대값은 " + numArr[2]);
+
+	//	6. 사용자가 입력한 정수의 구구단을 출력하세요.(출력 양식 => 2를 입력했을 때 2 * 1 = 2
+	//												  2 * 2 = 4
+	//												  .....
+	//												  2 * 9 = 18
+
+		System.out.println("정수를 입력하세요.");
+
+		int gugu = sc.nextInt();
 		sc.nextLine();
-		
-		
-		
-		
-		
+
+		for(int i = 1 ; i <= 9 ; i++){
+			System.out.println(gugu + " * " + i + " = " + i * gugu);
+		}
+
+	//	7. 사용자가 입력한 정수로 해당 정수의 팩토리얼을 계산하여 출력하세요.(재귀메소드 없이, while이나 for 반복문을 사용)
+		System.out.println("정수를 입력하세요.");
+
+		int num10 = sc.nextInt();
+		int factoNum = 1;
+
+		for(int i = 1 ; i < num10 + 1 ; i++){
+			factoNum *= i;
+		}
+
+		System.out.println(num10 + "의 계승은 " + factoNum + "입니다. ");
+
+	//
+	//	8. 사용자가 입력한 10개의 정수 중 소수의 개수를 출력하세요.(소수는 1이랑 본인 말고는 나눠떨어지는 값이 없는 수입니다.)
+	//	   사용자가 입력할 수 있는 값은 2 ~ 30로 제한
+
+		int cnt = 0;
+
+		for(int i = 0 ; i < 10; i++){
+			System.out.println("정수를 입력하세요.");
+			int n = sc.nextInt();
+			if(n<2 || n > 30) {
+				System.out.println("2에서 30까지의 숫자만 입력하세요.");
+				i--;
+				continue;
+			}
+			if(isPrime(n)) cnt++;
+		}
+
+		System.out.println("입력하신 정수 중 소수는 " + cnt + "개 입니다.");
+
+	}
+
+	public static boolean isPrime(int n) {
+		for (int i = 2; i * i <= n; i++) {
+			if (n % i == 0) {
+				return false;
+			}
+		}
+		return true;
 	}
 
 }
